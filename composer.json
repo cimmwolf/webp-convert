@@ -1,0 +1,28 @@
+{
+  "name": "cimmwolf/webp-convert",
+  "description": "Convert images to webp",
+  "type": "library",
+  "require": {
+    "symfony/console": "^5.1",
+    "symfony/filesystem": "^5.1",
+    "php": "7.2.*",
+    "symfony/finder": "^5.1",
+    "ext-gd": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Beliaev",
+      "email": "cimmwolf@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "DenisBeliaev\\Webp\\": "src/"
+    }
+  },
+  "bin": [
+    "webp"
+  ]
+}
